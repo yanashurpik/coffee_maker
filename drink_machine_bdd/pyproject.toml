@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "drink_machine_bdd"
+version = "0.1.0"
+description = ""
+authors = ["y.shurpik <y.shurpik@clearcode.cc>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+behave = "^1.2.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
